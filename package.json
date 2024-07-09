@@ -5,10 +5,10 @@
     "ng": "ng",
     "deploy": "npm run build & npm run ghpage",
     "start": "ng serve",
-    "build": "ng build --base-href=/multitelas/",
+    "build": "ng build --base-href=/multitelas/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "ghpage": "angular-cli-ghpages --dir=dist/multitelas"
+    "ghpage": "angular-cli-ghpages --dir=dist/multitelas/browser"
   },
   "private": true,
   "dependencies": {
