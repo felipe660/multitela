@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dois Vídeos da Twitch</title>
+  <!-- Adicionar link para o Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos customizados -->
+  <style>
+    .video-container {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-6 video-container">
+        <iframe
+          src="https://player.twitch.tv/?channel=rastalu4i20&parent=localhost"
+          height="500"
+          width="100%"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen="true">
+        </iframe>
+        <iframe id="twitch-chat-embed"
+          src="https://www.twitch.tv/embed/rastalu4i20/chat?parent=localhost"
+          height="400"
+          width="100%">
+        </iframe>
+      </div>
+      <div class="col-md-6 video-container">
+        <iframe
+          src="https://player.twitch.tv/?channel=7nerai&parent=localhost"
+          height="500"
+          width="100%"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen="true">
+        </iframe>
+        <iframe id="twitch-chat-embed"
+          src="https://www.twitch.tv/embed/7nerai/chat?parent=localhost"
+          height="400"
+          width="100%">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adicionar scripts do Bootstrap e jQuery (opcional) para funcionalidades extras -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
